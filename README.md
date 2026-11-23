@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="#english">English</a> · <a href="#日本語">日本語</a>
+  <a href="#english">English</a> · <a href="#日本語">日本語</a> · <a href="LICENSE">MIT License</a>
 </p>
 
 | Photo mode | Paint mode | Paint (dark) |
@@ -64,6 +64,10 @@ xcodebuild -project DosPhotoPaint.xcodeproj -scheme DosPhotoPaint test
 
 Edit `project.yml`, not the generated project. Localizations live in `tools/l10n_ja/*.json` and are merged
 into the String Catalogs with `tools/l10n_sync.py`.
+
+### License
+
+[MIT](LICENSE)
 
 ### Documentation (Japanese)
 
@@ -119,6 +123,10 @@ xcodebuild -project DosPhotoPaint.xcodeproj -scheme DosPhotoPaint test
 
 `.xcodeproj` は手で編集せず `project.yml` を編集してください。訳文は `tools/l10n_ja/*.json` にあり、
 `tools/l10n_sync.py` で String Catalog に反映します。
+
+### ライセンス
+
+[MIT](LICENSE)
 
 ### ドキュメント
 

@@ -7,7 +7,7 @@ This document records the key design decisions. Contributors (human or agent) mu
 - macOS 15.0+, Swift 6 language mode, **default actor isolation = MainActor** (`SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor`). Everything is main-actor unless marked `nonisolated`. Pure image-processing code (Imaging/) is `nonisolated` and works on `Sendable` values (`CGImage`, value structs).
 - Project is generated with **XcodeGen** from `project.yml` (sources are globbed by directory; just add files — never hand-edit the `.xcodeproj`). Run `xcodegen generate` after adding/removing files.
 - No third-party dependencies.
-- Not sandboxed since 0.1.0 (Developer ID distribution, hardened runtime, empty `DosPhotoPaint.entitlements`): the app reads images wherever the user can; macOS TCC asks once per protected location unless Full Disk Access is granted (`Shared/FileAccess.swift` offers to open System Settings on first launch and in Settings ▸ General). The security-scoped folder bookmark code (`FolderAccess`) remains as a fallback when a folder listing is denied.
+- Not sandboxed since 0.1.1 (Developer ID distribution, hardened runtime, empty `DosPhotoPaint.entitlements`): the app reads images wherever the user can; macOS TCC asks once per protected location unless Full Disk Access is granted (`Shared/FileAccess.swift` offers to open System Settings on first launch and in Settings ▸ General). The security-scoped folder bookmark code (`FolderAccess`) remains as a fallback when a folder listing is denied.
 
 ## 2. App lifecycle (AppKit, not SwiftUI `App`)
 

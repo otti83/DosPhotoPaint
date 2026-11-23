@@ -1,7 +1,7 @@
 import AppKit
 
 /// File-system access outside the App Sandbox (the app is distributed with Developer ID and is
-/// not sandboxed since 0.1.0): Full Disk Access status and guidance.
+/// not sandboxed since 0.1.1): Full Disk Access status and guidance.
 nonisolated enum FileAccess {
 
     // MARK: Full Disk Access
