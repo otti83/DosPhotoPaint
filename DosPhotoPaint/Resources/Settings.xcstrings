@@ -34,6 +34,28 @@
         }
       }
     },
+    "Allow Full Disk Access?": {
+      "extractionState": "manual",
+      "localizations": {
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "フルディスクアクセスを許可しますか?"
+          }
+        }
+      }
+    },
+    "Allowed": {
+      "extractionState": "manual",
+      "localizations": {
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "許可済み"
+          }
+        }
+      }
+    },
     "Always": {
       "extractionState": "manual",
       "localizations": {
@@ -419,6 +441,17 @@
         }
       }
     },
+    "DosPhotoPaint opens and browses images wherever they are. Without Full Disk Access, macOS asks once for each protected location (Desktop, Documents, Downloads, network and external drives). With it, you are never asked.\n\nIn System Settings, turn on DosPhotoPaint under Full Disk Access, then relaunch the app. You can do this later from Settings ▸ General.": {
+      "extractionState": "manual",
+      "localizations": {
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "DosPhotoPaint は画像がどこにあっても開いて閲覧できます。フルディスクアクセスがない場合、macOS は保護された場所(デスクトップ・書類・ダウンロード・ネットワークドライブ・外部ドライブ)ごとに一度だけ確認を表示します。許可すると確認は一切表示されません。\n\nシステム設定の「フルディスクアクセス」で DosPhotoPaint をオンにし、アプリを再起動してください。あとから 設定 ▸ 一般 でも設定できます。"
+          }
+        }
+      }
+    },
     "Double-click": {
       "extractionState": "manual",
       "localizations": {
@@ -448,6 +481,17 @@
           "stringUnit": {
             "state": "translated",
             "value": "編集"
+          }
+        }
+      }
+    },
+    "File Access": {
+      "extractionState": "manual",
+      "localizations": {
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ファイルへのアクセス"
           }
         }
       }
@@ -514,6 +558,17 @@
           "stringUnit": {
             "state": "translated",
             "value": "フォーマット"
+          }
+        }
+      }
+    },
+    "Full Disk Access": {
+      "extractionState": "manual",
+      "localizations": {
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "フルディスクアクセス"
           }
         }
       }
@@ -936,6 +991,17 @@
         }
       }
     },
+    "Not allowed": {
+      "extractionState": "manual",
+      "localizations": {
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "未許可"
+          }
+        }
+      }
+    },
     "Nothing is written until you save. Save writes back to the original file, Save As and Export choose a format, and Save as Project keeps all layers in a .dpp file. Saving a layered image as PNG or JPEG flattens it, and you will be asked first.": {
       "extractionState": "manual",
       "localizations": {
@@ -976,6 +1042,28 @@
           "stringUnit": {
             "state": "translated",
             "value": "⌘,で設定を開くと、言語、外観、ビューアの動作、新規キャンバスの初期値、保存オプション、パフォーマンスを変更できます。「ヘルプ」>「キーボードショートカット」にすべてのショートカットが一覧表示されます。"
+          }
+        }
+      }
+    },
+    "Open System Settings": {
+      "extractionState": "manual",
+      "localizations": {
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "システム設定を開く"
+          }
+        }
+      }
+    },
+    "Open System Settings…": {
+      "extractionState": "manual",
+      "localizations": {
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "システム設定を開く…"
           }
         }
       }
@@ -1801,6 +1889,17 @@
           "stringUnit": {
             "state": "translated",
             "value": "ウインドウ"
+          }
+        }
+      }
+    },
+    "With Full Disk Access, macOS never asks before DosPhotoPaint opens images on the Desktop, in Documents, Downloads or on network and external drives. Relaunch the app after changing it.": {
+      "extractionState": "manual",
+      "localizations": {
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "フルディスクアクセスを許可すると、デスクトップ・書類・ダウンロード・ネットワークドライブ・外部ドライブの画像を開くときに macOS の確認が出なくなります。変更後はアプリを再起動してください。"
           }
         }
       }

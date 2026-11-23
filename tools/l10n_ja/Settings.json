@@ -165,5 +165,14 @@
 "seconds": "秒",
 "Left (vertical)": "左側(縦)",
 "Tool palette position": "ツールパレットの位置",
-"Top (horizontal)": "上部(横)"
+"Top (horizontal)": "上部(横)",
+"Allow Full Disk Access?": "フルディスクアクセスを許可しますか?",
+"Allowed": "許可済み",
+"DosPhotoPaint opens and browses images wherever they are. Without Full Disk Access, macOS asks once for each protected location (Desktop, Documents, Downloads, network and external drives). With it, you are never asked.\n\nIn System Settings, turn on DosPhotoPaint under Full Disk Access, then relaunch the app. You can do this later from Settings ▸ General.": "DosPhotoPaint は画像がどこにあっても開いて閲覧できます。フルディスクアクセスがない場合、macOS は保護された場所(デスクトップ・書類・ダウンロード・ネットワークドライブ・外部ドライブ)ごとに一度だけ確認を表示します。許可すると確認は一切表示されません。\n\nシステム設定の「フルディスクアクセス」で DosPhotoPaint をオンにし、アプリを再起動してください。あとから 設定 ▸ 一般 でも設定できます。",
+"File Access": "ファイルへのアクセス",
+"Full Disk Access": "フルディスクアクセス",
+"Not allowed": "未許可",
+"Open System Settings": "システム設定を開く",
+"Open System Settings…": "システム設定を開く…",
+"With Full Disk Access, macOS never asks before DosPhotoPaint opens images on the Desktop, in Documents, Downloads or on network and external drives. Relaunch the app after changing it.": "フルディスクアクセスを許可すると、デスクトップ・書類・ダウンロード・ネットワークドライブ・外部ドライブの画像を開くときに macOS の確認が出なくなります。変更後はアプリを再起動してください。"
 }

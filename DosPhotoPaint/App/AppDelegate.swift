@@ -18,6 +18,8 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
         _ = ImageCache.shared  // installs the memory-pressure handler
         SettingsLiveApplier.shared.install()
         LaunchTiming.markDidFinishLaunching()
+        // After the launch window is up, so the explanation appears in front of it.
+        DispatchQueue.main.async { FileAccess.offerFullDiskAccessOnFirstLaunch() }
     }
 
     // MARK: Launch / reopen

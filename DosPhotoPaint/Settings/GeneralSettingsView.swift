@@ -5,6 +5,7 @@ struct GeneralSettingsView: View {
     @Bindable var settings: AppSettings
     /// Called after the language setting changed (to offer a relaunch).
     var languageChanged: () -> Void
+    @State private var hasFullDiskAccess = FileAccess.hasFullDiskAccess
 
     var body: some View {
         SettingsTabForm {
@@ -28,10 +29,30 @@ struct GeneralSettingsView: View {
                 Toggle(String(localized: "Ask before closing a document with unsaved changes", table: "Settings"),
                        isOn: $settings.confirmUnsavedOnClose)
             }
+            Section {
+                LabeledContent(String(localized: "Full Disk Access", table: "Settings")) {
+                    HStack(spacing: 8) {
+                        Text(hasFullDiskAccess ? String(localized: "Allowed", table: "Settings")
+                                               : String(localized: "Not allowed", table: "Settings"))
+                            .foregroundStyle(hasFullDiskAccess ? Color.secondary : Color.orange)
+                        Button(String(localized: "Open System Settings…", table: "Settings")) {
+                            FileAccess.openFullDiskAccessSettings()
+                        }
+                    }
+                }
+            } header: {
+                Text("File Access", tableName: "Settings")
+            } footer: {
+                Text("With Full Disk Access, macOS never asks before DosPhotoPaint opens images on the Desktop, in Documents, Downloads or on network and external drives. Relaunch the app after changing it.", tableName: "Settings")
+            }
             Section(String(localized: "Recent Items", table: "Settings")) {
                 SettingsIntField(title: String(localized: "Number of recent documents", table: "Settings"),
                                  value: $settings.recentDocumentsLimit, range: AppSettings.recentDocumentsRange)
             }
+        }
+        // Re-check when the user comes back from System Settings.
+        .onReceive(NotificationCenter.default.publisher(for: NSApplication.didBecomeActiveNotification)) { _ in
+            hasFullDiskAccess = FileAccess.hasFullDiskAccess
         }
     }
 

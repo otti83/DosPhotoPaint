@@ -9,7 +9,7 @@ nonisolated enum AppRuntime {
     }()
 
     /// Suite used instead of the user's preferences while unit tests run, so tests never change
-    /// the real app settings (they share the app's sandbox container). Cleared at each test launch.
+    /// the real app settings (they run inside the app process). Cleared at each test launch.
     static let unitTestSuiteName = "com.dosphotopaint.DosPhotoPaint.unittests"
 
     /// The preferences store for all app settings (UserDefaults is thread-safe).

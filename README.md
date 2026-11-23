@@ -23,7 +23,8 @@
 
 DosPhotoPaint combines a fast photo viewer with a simple, Windows Paint–style editor. Switch between
 **Photo** (browse) and **Paint** (edit) in the same window with `⌘E`; the image, zoom, edits and undo
-history are kept. Swift 6 / AppKit + SwiftUI, no third-party dependencies, no network access, App Sandbox.
+history are kept. Swift 6 / AppKit + SwiftUI, no third-party dependencies, no network access.
+On first launch the app offers to open System Settings for **Full Disk Access** (optional): with it, macOS never asks before images on the Desktop, in Documents, Downloads or on network / external drives are opened.
 
 ### Features
 
@@ -77,7 +78,8 @@ into the String Catalogs with `tools/l10n_sync.py`.
 DosPhotoPaint は、高速な写真ビューアと Windows ペイント風のシンプルな編集機能をひとつにした macOS
 アプリです。同じウィンドウで **Photo**(閲覧)と **Paint**(編集)を `⌘E` で切り替えられ、画像・ズーム・
 編集内容・アンドゥ履歴はそのまま保持されます。Swift 6 / AppKit + SwiftUI、サードパーティ依存なし、
-ネットワーク通信なし、App Sandbox 有効。
+ネットワーク通信なし。
+初回起動時に **フルディスクアクセス** の設定画面を開くか確認します(任意)。許可するとデスクトップ・書類・ダウンロード・ネットワーク/外部ドライブの画像を開くときに macOS の確認が出なくなります。
 
 ### 主な機能
 
