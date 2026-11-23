@@ -1,0 +1,105 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "BMP image": {
+      "extractionState": "manual",
+      "localizations": {
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "BMP画像"
+          }
+        }
+      }
+    },
+    "DosPhotoPaint Project": {
+      "extractionState": "manual",
+      "localizations": {
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "DosPhotoPaintプロジェクト"
+          }
+        }
+      }
+    },
+    "GIF image": {
+      "extractionState": "manual",
+      "localizations": {
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "GIF画像"
+          }
+        }
+      }
+    },
+    "HEIC image": {
+      "extractionState": "manual",
+      "localizations": {
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "HEIC画像"
+          }
+        }
+      }
+    },
+    "HEIF image": {
+      "extractionState": "manual",
+      "localizations": {
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "HEIF画像"
+          }
+        }
+      }
+    },
+    "JPEG image": {
+      "extractionState": "manual",
+      "localizations": {
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "JPEG画像"
+          }
+        }
+      }
+    },
+    "PNG image": {
+      "extractionState": "manual",
+      "localizations": {
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PNG画像"
+          }
+        }
+      }
+    },
+    "TIFF image": {
+      "extractionState": "manual",
+      "localizations": {
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "TIFF画像"
+          }
+        }
+      }
+    },
+    "WebP image": {
+      "extractionState": "manual",
+      "localizations": {
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WebP画像"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

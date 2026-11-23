@@ -1,0 +1,325 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "Cancel": {
+      "extractionState": "manual",
+      "localizations": {
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "キャンセル"
+          }
+        }
+      }
+    },
+    "Export": {
+      "extractionState": "manual",
+      "localizations": {
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "書き出す"
+          }
+        }
+      }
+    },
+    "Format:": {
+      "extractionState": "manual",
+      "localizations": {
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "フォーマット:"
+          }
+        }
+      }
+    },
+    "Layers will be flattened": {
+      "extractionState": "manual",
+      "localizations": {
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "レイヤーが統合されます"
+          }
+        }
+      }
+    },
+    "Quality:": {
+      "extractionState": "manual",
+      "localizations": {
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "品質:"
+          }
+        }
+      }
+    },
+    "Replace": {
+      "extractionState": "manual",
+      "localizations": {
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "置き換える"
+          }
+        }
+      }
+    },
+    "Replace the original image?": {
+      "extractionState": "manual",
+      "localizations": {
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "元の画像を置き換えますか?"
+          }
+        }
+      }
+    },
+    "Replace the original with a re-compressed image?": {
+      "extractionState": "manual",
+      "localizations": {
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "元の画像を再圧縮した画像で置き換えますか?"
+          }
+        }
+      }
+    },
+    "Save Flattened": {
+      "extractionState": "manual",
+      "localizations": {
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "統合して保存"
+          }
+        }
+      }
+    },
+    "Save as Project…": {
+      "extractionState": "manual",
+      "localizations": {
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "プロジェクトとして保存…"
+          }
+        }
+      }
+    },
+    "Saving re-encodes this JPEG/HEIC image, which slightly reduces quality. Use Save As to keep the original.": {
+      "extractionState": "manual",
+      "localizations": {
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "保存するとこのJPEG/HEIC画像が再エンコードされ、画質がわずかに低下します。元の画像を残すには「別名で保存」を使用してください。"
+          }
+        }
+      }
+    },
+    "Some files could not be opened": {
+      "extractionState": "manual",
+      "localizations": {
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "開けなかったファイルがあります"
+          }
+        }
+      }
+    },
+    "The file was moved or deleted. Your copy stays open; use Save As to write it again.": {
+      "extractionState": "manual",
+      "localizations": {
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ファイルが移動または削除されました。コピーは開いたままです。もう一度書き込むには「別名で保存」を使用してください。"
+          }
+        }
+      }
+    },
+    "The file “%@” could not be found.": {
+      "extractionState": "manual",
+      "localizations": {
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ファイル“%@”が見つかりませんでした。"
+          }
+        }
+      }
+    },
+    "The file “%@” could not be read. You may not have permission to open it.": {
+      "extractionState": "manual",
+      "localizations": {
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ファイル“%@”を読み込めませんでした。開く権限がない可能性があります。"
+          }
+        }
+      }
+    },
+    "The file “%@” is empty.": {
+      "extractionState": "manual",
+      "localizations": {
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ファイル“%@”は空です。"
+          }
+        }
+      }
+    },
+    "The image could not be encoded as “%@”.": {
+      "extractionState": "manual",
+      "localizations": {
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "画像を“%@”としてエンコードできませんでした。"
+          }
+        }
+      }
+    },
+    "The original file will also be re-encoded with lossy compression.": {
+      "extractionState": "manual",
+      "localizations": {
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "元のファイルも非可逆圧縮で再エンコードされます。"
+          }
+        }
+      }
+    },
+    "The original file will be overwritten. Use Save As to keep the original.": {
+      "extractionState": "manual",
+      "localizations": {
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "元のファイルが上書きされます。元のファイルを残すには「別名で保存」を使用してください。"
+          }
+        }
+      }
+    },
+    "The project file is damaged (%@).": {
+      "extractionState": "manual",
+      "localizations": {
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "プロジェクトファイルが破損しています (%@)。"
+          }
+        }
+      }
+    },
+    "The project file is damaged (manifest missing).": {
+      "extractionState": "manual",
+      "localizations": {
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "プロジェクトファイルが破損しています (マニフェストがありません)。"
+          }
+        }
+      }
+    },
+    "These files are not in a supported image format: %@": {
+      "extractionState": "manual",
+      "localizations": {
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "これらのファイルは対応していない画像フォーマットです: %@"
+          }
+        }
+      }
+    },
+    "These files could not be read: %@": {
+      "extractionState": "manual",
+      "localizations": {
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "次のファイルを読み込めませんでした: %@"
+          }
+        }
+      }
+    },
+    "This Mac cannot save images of type “%@”.": {
+      "extractionState": "manual",
+      "localizations": {
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "このMacでは“%@”形式の画像を保存できません。"
+          }
+        }
+      }
+    },
+    "This image format stores a single layer. Save as a project (.dpp) to keep the layers.": {
+      "extractionState": "manual",
+      "localizations": {
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "この画像フォーマットは1つのレイヤーのみ保存できます。レイヤーを残すには、プロジェクト (.dpp) として保存してください。"
+          }
+        }
+      }
+    },
+    "This project was created by a newer version of DosPhotoPaint (format %lld).": {
+      "extractionState": "manual",
+      "localizations": {
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "このプロジェクトは、より新しいバージョンのDosPhotoPaint (フォーマット %lld) で作成されました。"
+          }
+        }
+      }
+    },
+    "“%@” (%lld × %lld pixels) is too large to edit.": {
+      "extractionState": "manual",
+      "localizations": {
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "“%1$@” (%2$lld × %3$lld ピクセル) は大きすぎて編集できません。"
+          }
+        }
+      }
+    },
+    "“%@” appears to be damaged and could not be decoded.": {
+      "extractionState": "manual",
+      "localizations": {
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "“%@”は破損しているようで、デコードできませんでした。"
+          }
+        }
+      }
+    },
+    "“%@” is not in an image format supported on this Mac.": {
+      "extractionState": "manual",
+      "localizations": {
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "“%@”は、このMacで対応している画像フォーマットではありません。"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

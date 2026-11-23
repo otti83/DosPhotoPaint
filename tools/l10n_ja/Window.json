@@ -1,0 +1,19 @@
+{
+"%lld × %lld px": "%lld × %lld px",
+"Animated image": "アニメーション画像",
+"Cancel": "キャンセル",
+"Do you want to insert the image into the current canvas or open it as a new image?": "この画像を現在のキャンバスに挿入しますか?それとも新しい画像として開きますか?",
+"Drop Image": "画像のドロップ",
+"Edited": "編集済み",
+"Enter a zoom percentage (10–3200).": "拡大率をパーセントで入力してください (10~3200)。",
+"Image %lld of %lld": "%2$lld枚中%1$lld枚目の画像",
+"Insert into Canvas": "キャンバスに挿入",
+"Only the first frame of this animation is edited. Saving will write a still image.": "このアニメーションでは最初のフレームのみが編集されます。保存すると静止画として書き込まれます。",
+"Open as New Image": "新しい画像として開く",
+"Preparing image for editing…": "編集用に画像を準備中…",
+"This image could not be displayed.": "この画像を表示できませんでした。",
+"Zoom To": "拡大率を指定",
+"Zoom": "ズーム",
+"Zoom percentage": "ズーム率",
+"Thumbnail Size": "サムネイルのサイズ"
+}
